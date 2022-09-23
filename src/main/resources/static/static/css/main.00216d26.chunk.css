@@ -1,0 +1,42 @@
+.dashboard {
+    padding: 12px;
+    width: 260px;
+    cursor: pointer;
+    border-radius: 10px
+}
+
+.dashboard:hover {
+    background-color: #4d4b4c
+}
+
+.main {
+    width: 300px;
+    background-color: grey;
+    padding-top: 6px;
+    margin-top: 10px;
+    padding-bottom: 50px
+}
+
+.domain, .main {
+    transition: all .5s linear
+}
+
+.domain {
+    width: 0;
+    overflow: hidden
+}
+
+.settingOpen {
+    margin-left: 260px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .5s linear
+}
+
+settingClose {
+    width: 0;
+    overflow: hidden;
+    transition: all .5s linear
+}
+
+/*# sourceMappingURL=main.00216d26.chunk.css.map */
